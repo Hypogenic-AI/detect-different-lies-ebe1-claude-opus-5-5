@@ -1,0 +1,17 @@
+\begin{table}[t]
+    \centering
+    \small
+    \caption{{\bf \mask cross-check} (known facts + disinformation, layer 12, 95\% CIs). Belief requires 3/3 consistent neutral answers. Lie detectors separate lies from honest answers in the same scenario but not from false answers where the model holds no consistent belief, as on \triviaqa. $n$: lie 67, honest 23, false without belief 55; wrong-inconsistent 19, correct-consistent 140.}
+    \label{tab:mask}
+    \begin{tabular}{@{}lccc@{}}
+        \toprule
+        \textbf{Detector} & \makecell{Lie vs.\ honest\\(pressure)} & \makecell{Lie vs.\ false-no-belief\\(pressure)} & \makecell{Wrong-inconsistent vs.\\correct belief (neutral)} \\
+        \midrule
+        \repe & 0.71 [0.56, 0.86] & 0.42 [0.32, 0.52] & 0.62 [0.47, 0.75] \\
+        \truthp (last token) & 0.56 [0.41, 0.68] & 0.62 [0.53, 0.72] & 0.55 [0.41, 0.69] \\
+        \truthp (mean) & 0.75 [0.61, 0.87] & {\bf 0.69} [0.59, 0.79] & 0.62 [0.51, 0.73] \\
+        \instr & {\bf 0.79} [0.64, 0.90] & 0.53 [0.43, 0.64] & 0.49 [0.35, 0.62] \\
+        \correct & 0.59 [0.46, 0.74] & 0.54 [0.43, 0.64] & {\bf 0.73} [0.60, 0.84] \\
+        \bottomrule
+    \end{tabular}
+\end{table}

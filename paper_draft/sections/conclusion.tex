@@ -1,0 +1,6 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We crossed knowledge with incentive on matched \triviaqa questions for \llama and asked two questions: how many false answers are hallucinations and how many are lies, and whether standard detectors can tell them apart. False answers are mostly honest errors unless an incentive is present; under an explicit operator incentive, about half become knowing lies. Standard white-box lie detectors do not read the belief--statement mismatch that defines a lie. They read the deceptive context (prompt-only AUROC 0.99) and are at chance when a knowing lie and an ignorant falsehood share the same prompt. Hallucination detectors track confidence, so they miss confident incentive lies.
+
+The key takeaway is that a lie detector should be tested against false answers that the model could not have known, under the same prompt. Future work should replicate this design on larger models and on lying without explicit incentive wording, make same-prompt unknown-question negatives a standard part of lie-detector benchmarks, and build detectors that model knowledge explicitly, for example by checking whether the correct answer is represented before a false answer, or by probing answer tokens with the prompt representation projected out.

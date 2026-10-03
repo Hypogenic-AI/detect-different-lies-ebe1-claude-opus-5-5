@@ -1,0 +1,130 @@
+[
+ {
+  "question": "Who was the man behind The Chipmunks?",
+  "question_id": "tc_2",
+  "answer_value": "David Seville",
+  "normalized_aliases": [
+   "david seville"
+  ]
+ },
+ {
+  "question": "Which Lloyd Webber musical premiered in the US on 10th December 1993?",
+  "question_id": "tc_33",
+  "answer_value": "Sunset Boulevard",
+  "normalized_aliases": [
+   "sunset boulevard",
+   "sunset bulevard",
+   "west sunset boulevard",
+   "sunset blvd"
+  ]
+ },
+ {
+  "question": "Who was the next British Prime Minister after Arthur Balfour?",
+  "question_id": "tc_40",
+  "answer_value": "Campbell-Bannerman",
+  "normalized_aliases": [
+   "henry campbell bannerman",
+   "sir henry campbell bannerman",
+   "campbell bannerman"
+  ]
+ },
+ {
+  "question": "Who had a 70s No 1 hit with Kiss You All Over?",
+  "question_id": "tc_49",
+  "answer_value": "Exile",
+  "normalized_aliases": [
+   "exiles",
+   "voluntary exile",
+   "forced exile",
+   "banish",
+   "self exile",
+   "exile politics and government",
+   "exile in greek tragedy",
+   "sent into exile"
+  ]
+ },
+ {
+  "question": "What claimed the life of singer Kathleen Ferrier?",
+  "question_id": "tc_56",
+  "answer_value": "Cancer",
+  "normalized_aliases": [
+   "aids related cancer",
+   "sporadic cancer",
+   "cancer disease",
+   "malignant tumors",
+   "cancers",
+   "carcinophobia",
+   "cancer",
+   "cancer diagnosis"
+  ]
+ },
+ {
+  "question": "Rita Coolidge sang the title song for which Bond film?",
+  "question_id": "tc_69",
+  "answer_value": "Octopussy",
+  "normalized_aliases": [
+   "list of bond girls in octopussy",
+   "bond 13",
+   "list of james bond allies in octopussy",
+   "magda james bond",
+   "penelope smallbone",
+   "kamal kahn",
+   "octopussy",
+   "list of james bond villains in octopussy"
+  ]
+ },
+ {
+  "question": "What was the last US state to reintroduce alcohol after prohibition?",
+  "question_id": "tc_79",
+  "answer_value": "Utah",
+  "normalized_aliases": [
+   "history of mining in utah",
+   "geography of utah",
+   "45th state",
+   "utah united states",
+   "youtah",
+   "us ut",
+   "transportation in utah",
+   "utahn"
+  ]
+ },
+ {
+  "question": "Which actress was voted Miss Greenwich Village in 1942?",
+  "question_id": "tc_106",
+  "answer_value": "Lauren Bacall",
+  "normalized_aliases": [
+   "lauren becall",
+   "loren bacall",
+   "lauren becal",
+   "lauren bacall",
+   "betty j perske",
+   "betty perske",
+   "betty joan perske",
+   "bacall"
+  ]
+ },
+ {
+  "question": "What is the Japanese share index called?",
+  "question_id": "tc_133",
+  "answer_value": "Nikkei",
+  "normalized_aliases": [
+   "nikkei disambiguation",
+   "nikkei"
+  ]
+ },
+ {
+  "question": "What was the name of Michael Jackson's autobiography written in 1988?",
+  "question_id": "tc_137",
+  "answer_value": "Moonwalk",
+  "normalized_aliases": [
+   "moon walk",
+   "lunar walks",
+   "moonwalks",
+   "moonwalk disambiguation",
+   "lunar walking",
+   "moonwalking",
+   "lunar walk",
+   "walk on moon"
+  ]
+ }
+]

@@ -1,0 +1,14 @@
+PDF: papers/2502.03407_detecting_strategic_deception_linear_probes.pdf
+Total pages: 35
+Pages per chunk: 4
+
+Chunks:
+  2502.03407_detecting_strategic_deception_linear_probes_chunk_001.pdf: pages 1-4
+  2502.03407_detecting_strategic_deception_linear_probes_chunk_002.pdf: pages 5-8
+  2502.03407_detecting_strategic_deception_linear_probes_chunk_003.pdf: pages 9-12
+  2502.03407_detecting_strategic_deception_linear_probes_chunk_004.pdf: pages 13-16
+  2502.03407_detecting_strategic_deception_linear_probes_chunk_005.pdf: pages 17-20
+  2502.03407_detecting_strategic_deception_linear_probes_chunk_006.pdf: pages 21-24
+  2502.03407_detecting_strategic_deception_linear_probes_chunk_007.pdf: pages 25-28
+  2502.03407_detecting_strategic_deception_linear_probes_chunk_008.pdf: pages 29-32
+  2502.03407_detecting_strategic_deception_linear_probes_chunk_009.pdf: pages 33-35

@@ -1,0 +1,19 @@
+\begin{table}[t]
+    \centering
+    \small
+    \caption{{\bf Where false outputs come from.} Share of false answers in each pool by the question's neutral knowledge state, with 95\% cluster-bootstrap CIs. False answers on known questions are lies. The last column is the stricter ``verified lie'' share: false on a known question \emph{and} corrected by the same-context follow-up. Without pressure, almost all falsehoods are epistemic; under an operator incentive, about half are knowing misreports.}
+    \label{tab:shares}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}lrcccc@{}}
+        \toprule
+        \textbf{Pool} & \textbf{$n$ false} & \textbf{Known (lie)} & \textbf{Partial} & \textbf{Unknown} & \textbf{Known \& follow-up correct} \\
+        \midrule
+        \neutral & 844 & \phantom{0}2.6 [1.6, 3.8] & 33.3 [29.8, 36.6] & 64.1 [60.5, 67.6] & \phantom{0}1.7 [0.8, 2.5] \\
+        \syco & 1,024 & 13.4 [11.3, 15.7] & 37.4 [34.4, 40.6] & 49.2 [45.8, 52.8] & \phantom{0}9.6 [7.8, 11.5] \\
+        \incent & 2,551 & 51.0 [48.9, 53.1] & 27.6 [25.7, 29.5] & 21.3 [19.7, 23.0] & 47.6 [45.3, 49.6] \\
+        \instructed & 2,705 & 55.1 [53.0, 57.1] & 25.4 [23.6, 27.2] & 19.5 [17.9, 21.1] & 51.6 [49.5, 53.6] \\
+        \midrule
+        \neutral + \syco + \incent & 4,419 & 33.1 [31.1, 35.0] & 31.0 [28.6, 33.2] & 36.0 [33.7, 38.4] & 30.0 [28.4, 31.9] \\
+        \bottomrule
+    \end{tabular}}
+\end{table}

@@ -1,0 +1,11 @@
+PDF: papers/2609.00180_spontaneous_vs_instructed_deception.pdf
+Total pages: 22
+Pages per chunk: 4
+
+Chunks:
+  2609.00180_spontaneous_vs_instructed_deception_chunk_001.pdf: pages 1-4
+  2609.00180_spontaneous_vs_instructed_deception_chunk_002.pdf: pages 5-8
+  2609.00180_spontaneous_vs_instructed_deception_chunk_003.pdf: pages 9-12
+  2609.00180_spontaneous_vs_instructed_deception_chunk_004.pdf: pages 13-16
+  2609.00180_spontaneous_vs_instructed_deception_chunk_005.pdf: pages 17-20
+  2609.00180_spontaneous_vs_instructed_deception_chunk_006.pdf: pages 21-22

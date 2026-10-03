@@ -1,0 +1,26 @@
+\begin{table}[t]
+    \centering
+    \caption{{\bf Pooled AUROCs at layer 12} (95\% cluster-bootstrap CIs; positive class first). Higher means the first category scores as more lie-like (lie detectors) or more hallucination-like (hallucination detectors). The last row applies the \repe probe to the prompt tokens only, before any answer exists: it matches or beats the full probe on the contrasts that differ in prompt (lie vs.\ \honestc, lie vs.\ hallucination). The pooled lie vs.\ \honestp and lie vs.\ \pufalse columns mix conditions; \tabref{tab:sameprompt} gives the unconfounded within-condition versions. $n$: lie 2,930; hallucination 541; \honestc 1,643; \honestp 2,065; \pufalse 1,576.}
+    \label{tab:auroc}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}llcccccc@{}}
+        \toprule
+        & & \multicolumn{3}{c}{\textbf{Different prompts}} & \multicolumn{3}{c}{\textbf{Pressure contrasts (pooled)}} \\
+        \cmidrule(lr){3-5} \cmidrule(lr){6-8}
+        & \textbf{Detector} & \makecell{Lie vs.\\honest-correct} & \makecell{Halluc.\ vs.\\honest-correct} & \makecell{Lie vs.\\halluc.} & \makecell{Lie vs.\\honest-under-pr.} & \makecell{Lie vs.\\pressured-unk.-false} & \makecell{Honest-under-pr.\\vs.\ honest-correct} \\
+        \midrule
+        \multirow{3}{*}{\rotatebox{90}{\scriptsize Lie}}
+        & \repe & 0.93 [0.92, 0.93] & 0.62 [0.60, 0.65] & 0.89 [0.88, 0.91] & 0.88 [0.87, 0.89] & 0.64 [0.63, 0.65] & 0.40 [0.38, 0.41] \\
+        & \truthp & 0.90 [0.89, 0.91] & 0.74 [0.72, 0.77] & 0.74 [0.71, 0.76] & 0.63 [0.61, 0.65] & 0.52 [0.50, 0.54] & 0.82 [0.81, 0.83] \\
+        & \instr & {\bf 0.99} [0.99, 0.99] & 0.81 [0.79, 0.84] & 0.97 [0.96, 0.97] & {\bf 0.93} [0.93, 0.94] & {\bf 0.68} [0.67, 0.69] & 0.69 [0.68, 0.70] \\
+        \midrule
+        \multirow{4}{*}{\rotatebox{90}{\scriptsize Hallucination}}
+        & \logprob & 0.81 [0.80, 0.82] & {\bf 0.91} [0.89, 0.93] & 0.48 [0.46, 0.51] & 0.72 [0.71, 0.73] & 0.53 [0.52, 0.55] & 0.66 [0.65, 0.67] \\
+        & \incons & 0.81 [0.80, 0.82] & {\bf 0.91} [0.89, 0.92] & 0.47 [0.45, 0.49] & 0.73 [0.72, 0.74] & 0.52 [0.51, 0.53] & 0.63 [0.62, 0.65] \\
+        & \correct & 0.84 [0.82, 0.85] & 0.89 [0.87, 0.90] & 0.51 [0.49, 0.54] & 0.70 [0.68, 0.71] & 0.48 [0.46, 0.50] & 0.67 [0.65, 0.68] \\
+        & \pik & 0.16 [0.15, 0.17] & 0.83 [0.80, 0.85] & 0.05 [0.04, 0.06] & 0.20 [0.19, 0.22] & 0.28 [0.27, 0.29] & 0.48 [0.47, 0.50] \\
+        \midrule
+        & \repeprompt & {\bf 0.99} [0.99, 0.99] & 0.47 [0.45, 0.50] & {\bf 0.99} [0.99, 1.00] & 0.87 [0.86, 0.88] & 0.67 [0.66, 0.68] & 0.90 [0.89, 0.91] \\
+        \bottomrule
+    \end{tabular}}
+\end{table}

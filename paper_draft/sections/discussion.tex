@@ -1,0 +1,36 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\para{How often does an 8B model lie?}
+For \llama on factual questions, false statements without pressure are overwhelmingly epistemic: 97\% come from questions the model does not fully know. A user's hint turns only 8\% of known questions into lies, so the concern that small models ``only lie when instructed'' is half right. Spontaneous lying under mild social pressure is rare. But an incentive framing with no instruction to lie produces a large, belief-verified yield (73\% of known questions), in line with \mask's finding that this model lies readily under pressure~\citep{ren2025mask}. The incentive is still very explicit, so we view these as incentivised rather than spontaneous lies~\citep{luikham2026asymmetries}.
+
+\para{What do lie detectors read?}
+The Apollo-style probe and the instructed-lie probe track the deceptive context. They fire from the prompt alone, fire on honest answers under pressure, fire just as strongly on pressured answers to questions the model cannot know, and miss sycophantic lies that lack an explicit deceptive frame. This extends three earlier observations: \citet{goldowsky2025detecting} note that their probe fires on honest text in deception-salient contexts, \citet{natarajan2026oneprobe} show that probe performance depends heavily on prompts, and \citet{thormann2026limits} argues that truth probes are falsity detectors. In our data the truth probe is indeed the most falsity-like detector: it separates lies from \honestp answers (0.74), but it also separates hallucinations from \honestc answers equally well (0.74). It also suggests that the lie cluster that \citet{huan2025canllmslie} report for the same model is largely the instruction context.
+
+\para{What do hallucination detectors read?}
+Hallucination detectors track confidence and recall~\citep{cheang2025internal}. They are blind to confident lies and ``detect'' lies only when lying makes the model uncertain. A deployed hallucination monitor would therefore flag the absurd answers of a model told to lie, while missing the more dangerous case of a model that confidently repeats an answer it has been paid to promote.
+
+\para{What would a lie detector need?}
+Separating the categories requires a knowledge estimate. The model's pre-answer state carries one: the \pik probe detects hallucinations (0.83) and correctly marks lies as known. A falsity $\times$ knowledge composite is a simple step towards a detector of belief--statement mismatch, but it reaches only 0.68 against same-prompt ignorant falsehoods, and everything it uses is available before the answer is produced. We did not find a distinct ``I am lying'' signal in the answer tokens beyond what the prompt already predicts.
+
+\para{Implications for evaluation.}
+Benchmarks such as Liars' Bench~\citep{kretschmar2025liars} and the \triviaqa Varied Deception setting of \citet{cooney2026didyoulie} use \honestc negatives and known-only questions. Our results suggest that part of their reported AUROCs reflects context: adding same-prompt unknown-question negatives drops the \repe probe from 0.93 to about 0.52. We recommend that lie-detector evaluations include (i) honest answers under the same pressure prompt, (ii) false answers under the same prompt on questions the model does not know, and (iii) a prompt-only baseline. On this model, a deception probe validated only against \honestc negatives would mainly flag pressure contexts.
+
+\para{Two surprises.}
+First, the \repe probe scores incentive lies \emph{lower} than honest answers in the same incentive context (0.44). Second, \honestp answers receive lower response-token \repe scores than neutral honest answers (0.40), although their prompt-token scores are far higher (0.90). Complying with or resisting pressure seems to shift the response representation in a way the probe does not read as honesty.
+
+\subsection{Limitations}
+\label{sec:limitations}
+
+\begin{itemize}[leftmargin=*,itemsep=1pt,topsep=1pt]
+    \item {\bf One model, one domain.} We study a single 8B model on short-answer trivia. Larger models may form more distinct lie representations; Apollo's strongest results use a 70B model~\citep{goldowsky2025detecting}.
+    \item {\bf Explicit lie induction.} The \incent and \instructed prompts are overt, and the naturalistic \syco cell has only 137 lies.
+    \item {\bf Behavioural, noisy knowledge labels.} Some ``unknown'' items have outdated gold answers (\eg the current EU High Representative), so the model may know a different true answer. The partial cell (26\% of questions) is excluded from the lie and hallucination contrasts. Confidently wrong beliefs are rare (1.3\% of known questions are wrong under neutral prompting) and are not analysed separately.
+    \item {\bf \pufalse is not a pure category.} Under \instructed, the model intends a wrong answer even when it does not know the right one (attempted deception without knowledge); under \incent it parrots the promoted answer. A detector that flags these could be argued to be right about \emph{intent}. Our claim is narrower: such detectors do not measure belief--statement mismatch.
+    \item {\bf Judge.} The planned API judge was unavailable, so we used a local 14B judge. Agreement on a hand audit is high ($n{=}40$), but small judge errors remain.
+    \item {\bf Detector coverage.} Probes were trained on few datasets. We did not run the Apollo roleplaying probe, follow-up-question probes~\citep{cooney2026didyoulie,pacchiardi2023catch}, or NLI-based semantic entropy; \incons is a lexical proxy.
+    \item {\bf Statistics.} The \mask cross-check is small (67 lies). AUROC CIs use 200--300 bootstrap resamples, and we did not apply a formal multiple-comparison correction; the key near-chance results do not depend on significance thresholds.
+\end{itemize}
+
+\para{Broader impact.}
+Our results argue for caution before using white-box deception probes as evidence that a model is lying or honest. A probe that reads context will produce false accusations on honest answers given under pressure and false reassurance on lies without a deceptive frame. We study detection only; our prompts induce misreporting in trivia questions and do not provide new capabilities for deception.

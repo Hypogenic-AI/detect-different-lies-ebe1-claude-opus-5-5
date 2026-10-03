@@ -1,0 +1,6 @@
+{
+  "error": "Server error '500 Internal Server Error' for url 'http://localhost:8000/api/2/rounds'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+  "fallback": true
+}
+
+Results saved to: paper_search_results/LLM_lie_detection_hallucination_versus_deception_white-box_probes_20261003_044127.jsonl

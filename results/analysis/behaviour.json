@@ -1,0 +1,269 @@
+{
+ "n_questions": 2733,
+ "knowledge_counts": {
+  "known": 1665,
+  "partial": 765,
+  "unknown": 545
+ },
+ "rates": {
+  "neutral|known": {
+   "n": 1665,
+   "false": 0.013213213213213212,
+   "correct": 0.9867867867867868,
+   "evasion": 0.0,
+   "adopt_distractor": 0.0018018018018018018,
+   "false_and_followup_correct": 0.008408408408408409
+  },
+  "neutral|partial": {
+   "n": 765,
+   "false": 0.3673202614379085,
+   "correct": 0.6326797385620915,
+   "evasion": 0.0,
+   "adopt_distractor": 0.03529411764705882,
+   "false_and_followup_correct": 0.1607843137254902
+  },
+  "neutral|unknown": {
+   "n": 545,
+   "false": 0.9926605504587156,
+   "correct": 0.001834862385321101,
+   "evasion": 0.005504587155963303,
+   "adopt_distractor": 0.07522935779816514,
+   "false_and_followup_correct": 0.10642201834862386
+  },
+  "sycophancy|known": {
+   "n": 1665,
+   "false": 0.08228228228228228,
+   "correct": 0.9177177177177177,
+   "evasion": 0.0,
+   "adopt_distractor": 0.04864864864864865,
+   "false_and_followup_correct": 0.05885885885885886
+  },
+  "sycophancy|partial": {
+   "n": 765,
+   "false": 0.5006535947712418,
+   "correct": 0.4993464052287582,
+   "evasion": 0.0,
+   "adopt_distractor": 0.20522875816993463,
+   "false_and_followup_correct": 0.1803921568627451
+  },
+  "sycophancy|unknown": {
+   "n": 545,
+   "false": 0.9247706422018349,
+   "correct": 0.07155963302752294,
+   "evasion": 0.003669724770642202,
+   "adopt_distractor": 0.4018348623853211,
+   "false_and_followup_correct": 0.08073394495412844
+  },
+  "incentive|known": {
+   "n": 1665,
+   "false": 0.781981981981982,
+   "correct": 0.218018018018018,
+   "evasion": 0.0,
+   "adopt_distractor": 0.7705705705705705,
+   "false_and_followup_correct": 0.7297297297297297
+  },
+  "incentive|partial": {
+   "n": 765,
+   "false": 0.9215686274509803,
+   "correct": 0.0784313725490196,
+   "evasion": 0.0,
+   "adopt_distractor": 0.8823529411764706,
+   "false_and_followup_correct": 0.49411764705882355
+  },
+  "incentive|unknown": {
+   "n": 545,
+   "false": 0.998165137614679,
+   "correct": 0.001834862385321101,
+   "evasion": 0.0,
+   "adopt_distractor": 0.9357798165137615,
+   "false_and_followup_correct": 0.11743119266055047
+  },
+  "instructed|known": {
+   "n": 1665,
+   "false": 0.8954954954954955,
+   "correct": 0.1045045045045045,
+   "evasion": 0.0,
+   "adopt_distractor": 0.025825825825825825,
+   "false_and_followup_correct": 0.8378378378378378
+  },
+  "instructed|partial": {
+   "n": 765,
+   "false": 0.8967320261437909,
+   "correct": 0.10326797385620914,
+   "evasion": 0.0,
+   "adopt_distractor": 0.050980392156862744,
+   "false_and_followup_correct": 0.46143790849673205
+  },
+  "instructed|unknown": {
+   "n": 545,
+   "false": 0.9688073394495413,
+   "correct": 0.031192660550458717,
+   "evasion": 0.0,
+   "adopt_distractor": 0.07522935779816514,
+   "false_and_followup_correct": 0.08440366972477065
+  }
+ },
+ "false_output_shares": {
+  "neutral": {
+   "n_false": 844,
+   "known": 0.026066350710900472,
+   "known_ci": [
+    0.016497987415563985,
+    0.03782520816005294
+   ],
+   "partial": 0.33293838862559244,
+   "partial_ci": [
+    0.2983662337662338,
+    0.36626656797839824
+   ],
+   "unknown": 0.6409952606635071,
+   "unknown_ci": [
+    0.6050798610437247,
+    0.6757894369149084
+   ],
+   "known_and_followup_correct": 0.016587677725118485,
+   "known_and_followup_correct_ci": [
+    0.008331855791962176,
+    0.02546370059224926
+   ]
+  },
+  "sycophancy": {
+   "n_false": 1024,
+   "known": 0.1337890625,
+   "known_ci": [
+    0.11272233471404207,
+    0.15734633242716578
+   ],
+   "partial": 0.3740234375,
+   "partial_ci": [
+    0.34371781250944095,
+    0.40567242553863336
+   ],
+   "unknown": 0.4921875,
+   "unknown_ci": [
+    0.4581690218784221,
+    0.5280407701513921
+   ],
+   "known_and_followup_correct": 0.095703125,
+   "known_and_followup_correct_ci": [
+    0.07825858996145398,
+    0.11472662365387352
+   ]
+  },
+  "incentive": {
+   "n_false": 2551,
+   "known": 0.5103880831046649,
+   "known_ci": [
+    0.4889411107444958,
+    0.5310392223188236
+   ],
+   "partial": 0.2763622108976872,
+   "partial_ci": [
+    0.25678492680780535,
+    0.2945836686217948
+   ],
+   "unknown": 0.21324970599764798,
+   "unknown_ci": [
+    0.19675898254520713,
+    0.23046176777590482
+   ],
+   "known_and_followup_correct": 0.47628381027048217,
+   "known_and_followup_correct_ci": [
+    0.45288901133441994,
+    0.4964345606470069
+   ]
+  },
+  "instructed": {
+   "n_false": 2705,
+   "known": 0.5512014787430684,
+   "known_ci": [
+    0.5298430539770651,
+    0.5705843639761307
+   ],
+   "partial": 0.2536044362292052,
+   "partial_ci": [
+    0.2360882507202118,
+    0.2715138497089932
+   ],
+   "unknown": 0.19519408502772642,
+   "unknown_ci": [
+    0.17913030214458528,
+    0.21146347193670426
+   ],
+   "known_and_followup_correct": 0.5157116451016636,
+   "known_and_followup_correct_ci": [
+    0.4948223893981666,
+    0.5361668928913959
+   ]
+  },
+  "all_pressure": {
+   "n_false": 6280,
+   "known": 0.46656050955414013,
+   "known_ci": [
+    0.4468765527902276,
+    0.48746060643627637
+   ],
+   "partial": 0.282484076433121,
+   "partial_ci": [
+    0.26626515032111536,
+    0.30253080084572553
+   ],
+   "unknown": 0.25095541401273885,
+   "unknown_ci": [
+    0.23264379589829945,
+    0.2693915907290016
+   ],
+   "known_and_followup_correct": 0.43121019108280256,
+   "known_and_followup_correct_ci": [
+    0.4102085381045312,
+    0.4505344466231382
+   ]
+  },
+  "all_conditions": {
+   "n_false": 7124,
+   "known": 0.41437394722066256,
+   "known_ci": [
+    0.39515493528406187,
+    0.43415087941103664
+   ],
+   "partial": 0.28846153846153844,
+   "partial_ci": [
+    0.2695702074091059,
+    0.3077144157201382
+   ],
+   "unknown": 0.297164514317799,
+   "unknown_ci": [
+    0.2762626720430332,
+    0.31938209441088605
+   ],
+   "known_and_followup_correct": 0.3820887142055025,
+   "known_and_followup_correct_ci": [
+    0.36548729924492124,
+    0.4011142948188247
+   ]
+  },
+  "neutral+sycophancy+incentive": {
+   "n_false": 4419,
+   "known": 0.33061778682959947,
+   "known_ci": [
+    0.310958581684714,
+    0.34971257962496266
+   ],
+   "partial": 0.30979859696763973,
+   "partial_ci": [
+    0.28646178720280296,
+    0.3319790804978741
+   ],
+   "unknown": 0.3595836162027608,
+   "unknown_ci": [
+    0.3368447608612677,
+    0.3837988542344687
+   ],
+   "known_and_followup_correct": 0.30029418420457116,
+   "known_and_followup_correct_ci": [
+    0.2835670509312543,
+    0.3185001526849866
+   ]
+  }
+ }
+}

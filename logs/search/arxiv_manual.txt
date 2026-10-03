@@ -1,0 +1,151 @@
+####  abs:"lie detection" AND abs:"language model"
+2609.39807v1 2026 | Stress-Testing LLM Lie Detectors: Role-Play Failures and Spurious Correlations
+2511.16035v2 2025 | Liars' Bench: Evaluating Lie Detectors for Language Models
+2603.05494v2 2026 | Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation
+2408.13915v1 2024 | LLMs are Superior Feedback Providers: Bootstrapping Reasoning for Lie Detection with Self-Generated Feedback
+2308.01404v2 2023 | Hoodwinked: Deception and Cooperation in a Text-Based Game for Language Models
+2309.15840v1 2023 | How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking Unrelated Questions
+2407.12831v2 2024 | Truth is Universal: Robust Detection of Lies in LLMs
+####  abs:hallucination AND abs:deception AND abs:probe
+2603.07202v1 2026 | Lying to Win: Assessing LLM Deception through Human-AI Games and Parallel-World Probing
+2608.26372v1 2026 | Knowledge-Verified Emergent Deception in LLM Agents Under Conflicting Incentives
+2603.07619v2 2026 | Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models
+2605.27068v2 2026 | QUACK: Questioning, Understanding, and Auditing Communicated Knowledge in Multimodal Social Deduction Agents
+2511.21756v1 2025 | Dissecting the Ledger: Locating and Suppressing "Liar Circuits" in Financial Large Language Models
+2403.09037v2 2024 | The First to Know: How Token Distributions Reveal Hidden Knowledge in Large Vision-Language Models?
+2606.17229v1 2026 | Rift: A Conflict Signature for Deception in Language Models
+2604.01346v2 2026 | Safety, Security, and Cognitive Risks in World Models
+2601.22655v3 2026 | Do Fine-Tuned LLMs Understand Vulnerabilities? An Investigation into the Semantic Trap
+####  abs:"truth probe" OR abs:"truthfulness probe"
+2603.10003v1 2026 | Probing the Limits of the Lie Detector Approach to LLM Deception
+2506.00823v1 2025 | Probing the Geometry of Truth: Consistency and Generalization of Truth Directions in LLMs Across Logical Transformations and Question Answering Tasks
+2604.03754v2 2026 | Testing the Limits of Truth Directions in LLMs
+2606.11502v3 2026 | When Role-playing, Do Models Believe What They Say?
+2609.10739v1 2026 | The Truth Was Never Gone: Perfect Aliasing in Compliant-Context Truth Probes
+2608.12852v2 2026 | Falsehood and Impossibility Are Different Directions in an AI's Representation of Language
+2609.18080v1 2026 | Decodability is Not Causality: Dissociating Probe Readouts from Behavioral Drivers via SAE Decomposition
+2609.31754v1 2026 | Calibration-Free Surface Normals Estimation in Vision-Based Tactile Sensing using Universal Photometric Stereo
+2510.11905v1 2025 | LLM Knowledge is Brittle: Truthfulness Representations Rely on Superficial Resemblance
+2609.37902v1 2026 | You Cannot Pick a Provider From the Price List: Market-Aware Routing for Open-Weight LLM Inference
+####  abs:"semantic entropy probes"
+2608.14659v1 2026 | When Uncertainty Isn't Enough: An Empirical Study of Self-Correction in Code Generation
+2406.15927v1 2024 | Semantic Entropy Probes: Robust and Cheap Hallucination Detection in LLMs
+####  ti:"geometry of truth"
+2211.01907v1 2022 | The Polyhedral Geometry of Truthful Auctions
+2506.08572v2 2025 | The Geometries of Truth Are Orthogonal Across Tasks
+2510.04933v1 2025 | The Geometry of Truth: Layer-wise Semantic Dynamics for Hallucination Detection in Large Language Models
+2310.06824v3 2023 | The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets
+####  abs:"inference-time intervention" AND abs:truthful
+2402.17811v2 2024 | TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space
+2508.04530v2 2025 | Balancing Stylization and Truth via Disentangled Representation Steering
+2306.03341v6 2023 | Inference-Time Intervention: Eliciting Truthful Answers from a Language Model
+2403.18680v2 2024 | Non-Linear Inference Time Intervention: Improving LLM Truthfulness
+2503.10602v3 2025 | TruthPrInt: Mitigating Large Vision-Language Models Object Hallucination Via Latent Truthful-Guided Pre-Intervention
+2607.19355v1 2026 | Information Discernment in Large Language Models
+2606.12160v2 2026 | A Controlled Study of Decoding-Time Truthfulness Methods on Instruction-Tuned LLMs
+2506.08359v3 2025 | REAL: Reading Out Transformer Activations for Precise Localization in Language Model Steering
+2406.01563v2 2024 | LoFiT: Localized Fine-tuning on LLM Representations
+2601.05547v2 2026 | VIB-Probe: Detecting and Mitigating Hallucinations in Vision-Language Models via Variational Information Bottleneck
+2607.09544v1 2026 | The Count Is There, but Misaligned: Understanding and Correcting Counting Failures in VLMs
+2502.12446v3 2025 | Multi-Attribute Steering of Language Models via Targeted Intervention
+2608.02957v1 2026 | Inverted Detection and Control in Steering Vectors
+2502.04043v1 2025 | Probe-Free Low-Rank Activation Intervention
+2606.01923v1 2026 | Resonant Context Anchoring: Decoupling Attention Routing and Signal Gain at Inference Time
+####  abs:"knows the answer" AND abs:hallucination
+2505.21701v2 2025 | Do We Know What LLMs Don't Know? A Study of Consistency in Knowledge Probing
+####  abs:"sycophancy" AND abs:probe AND abs:"internal"
+2604.03058v3 2026 | Verbalizing LLMs' assumptions to explain and control sycophancy
+2607.07003v3 2026 | Dissociating the Internal Representations of Sycophancy in LLMs
+2601.16644v1 2026 | Sycophancy Hides Linearly in the Attention Heads
+2601.21183v2 2026 | Sycophantic Anchors: Localizing and Quantifying User Agreement in Reasoning Models
+2601.11563v1 2025 | Human-like Social Compliance in Large Language Models: Unifying Sycophancy and Conformity through Signal Competition Dynamics
+2602.02496v1 2026 | The Hypocrisy Gap: Quantifying Divergence Between Internal Belief and Chain-of-Thought Explanation via Sparse Autoencoders
+2605.09391v2 2026 | Do Linear Probes Generalize Better in Persona Coordinates?
+2406.19501v2 2024 | Monitoring Latent World States in Language Models with Propositional Probes
+2607.00415v1 2026 | A Mechanistic View of Authority Hierarchy in LLM Sycophancy
+2505.18807v1 2025 | Mitigating Deceptive Alignment via Self-Monitoring
+2607.12985v2 2026 | Resist and Update: Counterfactual Report Coordinates for Incentive-Compatible LLMs
+####  abs:"strategic deception" AND abs:"language model"
+2604.04788v2 2026 | From Sycophancy to Deception: A Unified Taxonomy for LLM Spontaneous Misalignment
+2602.17676v1 2026 | Epistemic Traps: Rational Misalignment Driven by Model Misspecification
+2602.14457v1 2026 | Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report v1.5
+2511.17937v1 2025 | Alignment Faking - the Train -> Deploy Asymmetry: Through a Game-Theoretic Lens with Bayesian-Stackelberg Equilibria
+2506.04909v1 2025 | When Thinking LLMs Lie: Unveiling the Strategic Deception in Representations of Reasoning Models
+2403.09676v1 2024 | Unmasking the Shadows of AI: Investigating Deceptive Capabilities in Large Language Models
+2605.09773v1 2026 | Exploitation Without Deception: Dark Triad Feature Steering Reveals Separable Antisocial Circuits in Language Models
+2510.12826v2 2025 | Scheming Ability in LLM-to-LLM Strategic Interactions
+2510.04528v1 2025 | Unified Threat Detection and Mitigation Framework (UTDMF): Combating Prompt Injection, Deception, and Bias in Enterprise-Scale Transformers
+2509.20393v1 2025 | The Secret Agenda: LLMs Strategically Lie and Our Current Safety Tools Are Blind
+2603.26635v1 2026 | Deception and Communication in Autonomous Multi-Agent Systems: An Experimental Study with Among Us
+2605.10059v3 2026 | Strategic Exploitation in LLM Agent Markets: A Simulation Framework for E-Commerce Trust
+2606.24251v1 2026 | Probing the Misaligned Thinking Process of Language Models
+2606.08629v1 2026 | Sycophancy Towards Researchers Drives Performative Misalignment
+2605.19270v1 2026 | DECOR: Auditing LLM Deception via Information Manipulation Theory
+2607.26120v1 2026 | Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems
+2603.09200v1 2026 | The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness
+2511.17408v4 2025 | The Impact of Off-Policy Training Data on Probe Generalisation
+2603.06816v1 2026 | "Dark Triad" Model Organisms of Misalignment: Narrow Fine-Tuning Mirrors Human Antisocial Behavior
+####  abs:"hallucination detection" AND abs:"hidden states"
+2412.15264v3 2024 | ReXTrust: A Model for Fine-Grained Hallucination Detection in AI-Generated Radiology Reports
+2507.16488v1 2025 | ICR Probe: Tracking Hidden State Dynamics for Reliable Hallucination Detection in LLMs
+2509.11536v2 2025 | HARP: Hallucination Detection via Reasoning Subspace Projection
+2506.09886v2 2025 | Probabilistic distances-based hallucination detection in LLMs with RAG
+2604.02784v2 2026 | EnsemHalDet: Robust VLM Hallucination Detection via Ensemble of Internal State Detectors
+2604.06277v1 2026 | Weakly Supervised Distillation of Hallucination Signals into Transformer Representations
+2510.08389v1 2025 | Revisiting Hallucination Detection with Effective Rank-based Uncertainty
+2606.28520v1 2026 | Detecting Clinical Hallucinations in LVLMs via Counterfactual Visual Grounding Uncertainty
+2608.08024v1 2026 | Prompt Embedding Probes (PEP): Hallucination Detection in LLMs from Hidden States
+2512.20949v1 2025 | Neural Probe-Based Hallucination Detection for Large Language Models
+2606.29545v1 2026 | AURORA: Asymmetry and Update-Induced Rotation for Robust Hallucination Detection in Large Language Models
+2602.02888v2 2026 | HALT: Hallucination Assessment via Log-probs as Time series
+2604.15741v1 2026 | Learning Uncertainty from Sequential Internal Dispersion in Large Language Models
+2610.02066v1 2026 | External Observers May See More Clearly: Cross-Model Span-Level Hallucination Detection in Large Language Models via Hidden State Probing
+2509.13154v1 2025 | LLM Hallucination Detection: A Fast Fourier Transform Method Based on Hidden Layer Temporal Signals
+2607.15607v1 2026 | ASK-NN: An Asymmetric Nearest-Neighbor Test that detects Distribution Drifts in Natural Language
+2607.24586v1 2026 | D-Score: A Spectral Hidden-State Signal for Hallucination Detection in Large Language Models
+2609.10244v1 2026 | Two-Token Features and Small-Large Ensembles for VLM Hallucination Detection
+2601.14210v2 2026 | DRIFT: Detecting Representational Inconsistencies for Factual Truthfulness
+####  abs:"lying" AND abs:"activations" AND abs:"LLM"
+2509.03518v1 2025 | Can LLMs Lie? Investigation beyond Hallucination
+2311.15131v1 2023 | Localizing Lying in Llama: Understanding Instructed Dishonesty on True-False Questions Through Prompting, Probing, and Patching
+2504.04072v3 2025 | Among Us: A Sandbox for Measuring and Detecting Agentic Deception
+2607.11844v2 2026 | Beyond the Single Camera: Agentic Multi-View Reasoning in Sports Video Understanding
+####  abs:"confabulation" AND abs:"language model"
+2406.04175v2 2024 | Confabulation: The Surprising Value of Large Language Model Hallucinations
+2607.23213v1 2026 | A Taxonomy of Confabulations and the Perception-Reality Gap in LLM-Assisted Immersive Scene Editing
+2502.15457v1 2025 | Memory Helps, but Confabulation Misleads: Understanding Streaming Events in Videos with MLLMs
+2602.13224v3 2026 | A Geometric Taxonomy of Hallucinations in LLMs
+2608.23663v2 2026 | Confidently Wrong, Silently So: Auditing Undetectable Failures of a Deployed On-Device Language Model
+2510.02279v2 2025 | Addressing Pitfalls in the Evaluation of Uncertainty Estimation Methods for Natural Language Generation
+2605.16675v1 2026 | LinAlg-Bench: A Forensic Benchmark Revealing Structural Failure Modes in LLM Mathematical Reasoning
+2509.03533v1 2025 | Topic Identification in LLM Input-Output Pairs through the Lens of Information Bottleneck
+2502.00016v2 2025 | Large Language Models for Education: ChemTAsk -- An Open-Source Paradigm for Automated Q&A in the Graduate Classroom
+1912.08786v6 2019 | Why we need an AI-resilient society- Profiling Large Language Models
+2604.22773v1 2026 | Trace Mutation in Human-LLM Dialogue: The Transcript as Forensic and Mitigation Surface
+2605.11746v1 2026 | When Reasoning Traces Become Performative: Step-Level Evidence that Chain-of-Thought Is an Imperfect Oversight Channel
+2408.14623v1 2024 | MODOC: A Modular Interface for Flexible Interlinking of Text Retrieval and Text Generation Functions
+2603.21582v1 2026 | Overview of TREC 2025 Biomedical Generative Retrieval (BioGen) Track
+2607.26886v1 2026 | Hearsay: Vision-Language Medical Diagnoses Without an Image
+2504.10180v2 2025 | ChartOptimiser: Task-driven Optimisation of Chart Designs
+2509.25868v3 2025 | ReFACT: A Benchmark for Scientific Confabulation Detection with Positional Error Annotations
+2508.10192v1 2025 | Prompt-Response Semantic Divergence Metrics for Faithfulness Hallucination and Misalignment Detection in Large Language Models
+2312.03729v1 2023 | Cognitive Dissonance: Why Do Language Model Outputs Disagree with Internal Representations of Truthfulness?
+2602.09341v2 2026 | Auditing Multi-Agent LLM Reasoning Trees Outperforms Majority Vote and LLM-as-Judge
+####  ti:"internal state" AND ti:lying
+2304.13734v2 2023 | The Internal State of an LLM Knows When It's Lying
+####  abs:"sandbagging" AND abs:probe
+2512.07810v1 2025 | Auditing Games for Sandbagging
+2509.21344v2 2025 | Linear probes rely on textual evidence: Results from leakage mitigation studies in language models
+2609.21996v2 2026 | A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal
+2609.02893v1 2026 | Probe Generalization as Subspace Selection for OOD Deception Detection
+2606.28863v1 2026 | Defeat Devices in AI Systems
+2604.25067v2 2026 | Frontier Coding Agents Can Now Implement an AlphaZero Self-Play Machine Learning Pipeline For Connect Four That Performs Comparably to an External Solver
+2602.18971v1 2026 | When Do LLM Preferences Predict Downstream Behavior?
+####  abs:"truth direction" AND abs:"language model"
+2609.01361v1 2026 | Investigating Linear Probe Robustness to Linguistic Register, Medical Specialty, and Corpus Shifts in Medical QA
+2405.00301v3 2024 | Enhanced Language Model Truthfulness with Learnable Intervention and Uncertainty Expression
+2406.00034v2 2024 | Adaptive Activation Steering: A Tuning-Free LLM Truthfulness Improvement Method for Diverse Hallucinations Categories
+2604.19117v4 2026 | LLMs Know They're Wrong and Agree Anyway: The Shared Sycophancy-Lying Circuit
+2602.20273v1 2026 | The Truthfulness Spectrum Hypothesis
+2602.04918v2 2026 | Simulated Adoption: Decoupling Magnitude and Direction in LLM In-Context Conflict Resolution
+2504.02904v3 2025 | How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence

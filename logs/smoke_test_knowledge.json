@@ -1,0 +1,1402 @@
+[
+ {
+  "q": "Who was the man behind The Chipmunks?",
+  "gold": "David Seville",
+  "greedy": "Ross Bagdasarian.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which Lloyd Webber musical premiered in the US on 10th December 1993?",
+  "gold": "Sunset Boulevard",
+  "greedy": "Sunset Boulevard.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who was the next British Prime Minister after Arthur Balfour?",
+  "gold": "Campbell-Bannerman",
+  "greedy": "Sir Henry Campbell-Bannerman.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who had a 70s No 1 hit with Kiss You All Over?",
+  "gold": "Exile",
+  "greedy": "Exile.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What claimed the life of singer Kathleen Ferrier?",
+  "gold": "Cancer",
+  "greedy": "Breast cancer.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Rita Coolidge sang the title song for which Bond film?",
+  "gold": "Octopussy",
+  "greedy": "All Time High",
+  "n_correct": 4,
+  "label": "mid"
+ },
+ {
+  "q": "What was the last US state to reintroduce alcohol after prohibition?",
+  "gold": "Utah",
+  "greedy": "Mississippi.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which actress was voted Miss Greenwich Village in 1942?",
+  "gold": "Lauren Bacall",
+  "greedy": "Lauren Bacall.",
+  "n_correct": 2,
+  "label": "mid"
+ },
+ {
+  "q": "What is the Japanese share index called?",
+  "gold": "Nikkei",
+  "greedy": "Nikkei 225.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What was the name of Michael Jackson's autobiography written in 1988?",
+  "gold": "Moonwalk",
+  "greedy": "Moonwalk.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In which decade did stereo records first go on sale?",
+  "gold": "1930s",
+  "greedy": "1958.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In what year's Olympics were electric timing devices and a public-address system used for the first time?",
+  "gold": "In 1912, in Stockholm",
+  "greedy": "1912",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which volcano in Tanzania is the highest mountain in Africa?",
+  "gold": "Kilimanjaro",
+  "greedy": "Mount Kilimanjaro.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "The flag of Libya is a plain rectangle of which color?",
+  "gold": "Green",
+  "greedy": "Green.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "Of which African country is Niamey the capital?",
+  "gold": "Niger",
+  "greedy": "Niger.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who was the director of the CIA from 1976-81?",
+  "gold": "George Bush",
+  "greedy": "Stansfield Turner.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which musical featured the song The Street Where You Live?",
+  "gold": "My Fair Lady",
+  "greedy": "My Fair Lady",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "\"Who was the target of the failed \"\"Bomb Plot\"\" of 1944?\"",
+  "gold": "Hitler",
+  "greedy": "Adolf Hitler.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who had an 80s No 1 hit with Hold On To The Nights?",
+  "gold": "Richard Marx",
+  "greedy": "Richard Marx.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who directed the classic 30s western Stagecoach?",
+  "gold": "John Ford",
+  "greedy": "John Ford.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Dave Gilmore and Roger Waters were in which rock group?",
+  "gold": "Pink Floyd",
+  "greedy": "Pink Floyd.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which highway was Revisited in a classic 60s album by Bob Dylan?",
+  "gold": "61",
+  "greedy": "Highway 61.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which was the only eastern bloc country to participate in the 1984 LA Olympics?",
+  "gold": "Rumania",
+  "greedy": "Romania.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which 90s sci fi series with James Belushi was based on Bruce Wagner's comic strip of the same name?",
+  "gold": "Wild Palms",
+  "greedy": "Wild Palms.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "If I Were A Rich Man Was a big hit from which stage show?",
+  "gold": "Fiddler on the Roof",
+  "greedy": "Fiddler on the Roof.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Men Against the Sea and Pitcairn's Island were two sequels to what famous novel?",
+  "gold": "Mutiny On The Bounty",
+  "greedy": "Mutiny on the Bounty.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "What was Truman Capote's last name before he was adopted by his stepfather?",
+  "gold": "Persons",
+  "greedy": "Long",
+  "n_correct": 1,
+  "label": "mid"
+ },
+ {
+  "q": "In Lewis Carroll's poem The Hunting of the Snark, what did the elusive, troublesome snark turn into to fool hunters?",
+  "gold": "A boojum",
+  "greedy": "A Boojum.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In the Bible, who did the sun and moon stand still before?",
+  "gold": "Joshua",
+  "greedy": "Joshua.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What Michelle Pfeiffer movie got a boost from the Coolio song Gangsta's Paradise?",
+  "gold": "Dangerous Minds",
+  "greedy": "Dangerous Minds",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What was President Gerald Ford's middle name?",
+  "gold": "Rudolph",
+  "greedy": "Rudolph.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Art Garfunkel trained for which profession although he didn't qualify?",
+  "gold": "Architect",
+  "greedy": "Dentistry.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Who was the last inmate of Spandau jail in Berlin?",
+  "gold": "Rudolf Hess",
+  "greedy": "Rudolf H\u00f6ss.",
+  "n_correct": 2,
+  "label": "mid"
+ },
+ {
+  "q": "What was Eddie Murphy's first movie?",
+  "gold": "48 Hours",
+  "greedy": "48 Hrs.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In the 80s who wrote the novel Empire of The Sun?",
+  "gold": "J. G. Ballard",
+  "greedy": "J.G. Ballard.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Kagoshima international airport is in which country?",
+  "gold": "Japan",
+  "greedy": "Japan",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In which sport could the Pacers take on the Pistons?",
+  "gold": "A: Basketball",
+  "greedy": "Basketball.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Kim Carnes' nine weeks at No 1 with Bette Davis Eyes was interrupted for one week by which song?",
+  "gold": "Stars on 45 medley",
+  "greedy": "Stray Cat Strut.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Where in Canada is the Lion's Gate bridge?",
+  "gold": "Vancouver",
+  "greedy": "Vancouver, British Columbia.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What was Walter Matthau's first movie?",
+  "gold": "The Kentuckian",
+  "greedy": "Strangers on a Train.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Otis Barton was a pioneer in exploring where?",
+  "gold": "Underwater",
+  "greedy": "The deep ocean.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Where in England was actor Nigel Hawthorne born?",
+  "gold": "Coventry",
+  "greedy": "Derbyshire.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon?",
+  "gold": "A manticore",
+  "greedy": "Manticore.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In Greek mythology, who were Arges, Brontes and Steropes?",
+  "gold": "Cyclopes",
+  "greedy": "The Cyclopes.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "Which musician founded the Red Hot Peppers?",
+  "gold": "Jelly Roll Morton",
+  "greedy": "Anthony Kiedis and Flea.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Where did the Shinning Path terrorists operate?",
+  "gold": "Peru",
+  "greedy": "Peru.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "How old was Jimi Hendrix when he died?",
+  "gold": "27",
+  "greedy": "27 years old.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which Brit broke the land speed record in 1990 in Thrust 2?",
+  "gold": "Richard Noble",
+  "greedy": "Richard Noble.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In which state was Gene Vincent born?",
+  "gold": "Virginia",
+  "greedy": "Virginia.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "How was the European Recovery Program in the 1940s more commonly known?",
+  "gold": "Marshall Plan",
+  "greedy": "The Marshall Plan.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Brandon Lee died during the making of which movie?",
+  "gold": "The Crow",
+  "greedy": "The Crow.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who had a 70s No 1 hit with Let's Do It Again?",
+  "gold": "The Staple Singers",
+  "greedy": "Staple Singers",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who had a Too Legit To Quit Tour?",
+  "gold": "MC Hammer",
+  "greedy": "MC Hammer.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "\"According to Rudyard Kipling what were the \"\"two imposters\"\" to meet and treat the same day?\"",
+  "gold": "Triumph and Disaster",
+  "greedy": "Triumph and defeat.",
+  "n_correct": 2,
+  "label": "mid"
+ },
+ {
+  "q": "Who is the most successful UK solo artist in the USA?",
+  "gold": "Elton John",
+  "greedy": "Elton John.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which country does the airline TAAG come from?",
+  "gold": "Angola",
+  "greedy": "Angola.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which US No 1 single came from Diana Ross's platinum album Diana?",
+  "gold": "Upside Down",
+  "greedy": "Upside Down",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "River Phoenix died during the making of which movie?",
+  "gold": "Dark Blood",
+  "greedy": "Dark Blood.",
+  "n_correct": 2,
+  "label": "mid"
+ },
+ {
+  "q": "Which artist David was born in Bradford UK?",
+  "gold": "Hockney",
+  "greedy": "David Hockney.",
+  "n_correct": 1,
+  "label": "mid"
+ },
+ {
+  "q": "What is Mel Gibson's middle name?",
+  "gold": "Columcille",
+  "greedy": "Gerard.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Richard Daley was mayor of which city for 21 years?",
+  "gold": "Chicago",
+  "greedy": "Chicago.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "\"In which movie did Garbo say, \"\"I want to be alone\"\".\"",
+  "gold": "Grand Hotel",
+  "greedy": "Grand Hotel.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What is Osbert Lancaster best known for producing?",
+  "gold": "Cartoons",
+  "greedy": "Cartoonist and theatre critic.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "Who was the defending champion when Martina Navratilova first won Wimbledon singles?",
+  "gold": "Virginia Wade",
+  "greedy": "Chris Evert-Lloyd",
+  "n_correct": 1,
+  "label": "mid"
+ },
+ {
+  "q": "Who was the first US-born winner of golf's British Open?",
+  "gold": "Walter Hagen",
+  "greedy": "Richard Bland was not the first US-born winner,  however,  the first US-born winner of the British Open",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In which country is the Sky Train Rail bridge?",
+  "gold": "Canada",
+  "greedy": "Thailand",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "What was the Paramount Film Company originally called?",
+  "gold": "Famous Players Film Company",
+  "greedy": "The Biograph Company.",
+  "n_correct": 2,
+  "label": "mid"
+ },
+ {
+  "q": "Who was the first person after Scott to reach the South Pole overland?",
+  "gold": "Edmond Hillary",
+  "greedy": "Roald Amundsen.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which journalist first told the world about the My Lai massacre?",
+  "gold": "Seymour Hersh",
+  "greedy": "Seymour Hersh.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What is the name of Terence and Shirley Conran's dress designer son?",
+  "gold": "Jasper",
+  "greedy": "Benjamin Conran",
+  "n_correct": 2,
+  "label": "mid"
+ },
+ {
+  "q": "Which drink did The Spice Girls promote?",
+  "gold": "Pepsi",
+  "greedy": "Pepsi.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who was the youngest brother in the Beach Boys?",
+  "gold": "Carl Wilson",
+  "greedy": "Carl Wilson.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "Who first hosted Family Feud?",
+  "gold": "Richard Dawson",
+  "greedy": "Richard Dawson.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What did the Lone Ranger's title Kemo Sabe mean in Apache?",
+  "gold": "White Shirt",
+  "greedy": "Trusted Friend.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Who or what was Gentle Ben in the 60s TV series?",
+  "gold": "Bear cub",
+  "greedy": "A giant brown bear.",
+  "n_correct": 4,
+  "label": "mid"
+ },
+ {
+  "q": "Which 70s show was based on the British show Till Death Us Do Part?",
+  "gold": "All In The Family",
+  "greedy": "All in the Family.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "On what date in 1969 did Neil Armstrong first set foot on the Moon?",
+  "gold": "July 20th",
+  "greedy": "July 20, 1969.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Bandar Seri Begawan International airport is in which country?",
+  "gold": "Brunei",
+  "greedy": "Brunei.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What was the profession of Paul Strand (1890 - 1976)?",
+  "gold": "Photographer",
+  "greedy": "Photographer.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who had a 60s No 1 with Downtown?",
+  "gold": "Petula Clark",
+  "greedy": "Petula Clark.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who was born first, Kiefer Sutherland or Christian Slater?",
+  "gold": "Kiefer Sutherland",
+  "greedy": "Kiefer Sutherland.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "To the nearest two, how many tennis Grand Slam titles did Jimmy Connors win?",
+  "gold": "10",
+  "greedy": "8",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Who was the Georgia Peach?",
+  "gold": "Ty Cobb",
+  "greedy": "Ty Cobb.",
+  "n_correct": 3,
+  "label": "mid"
+ },
+ {
+  "q": "Who set fire to his guitar at the Monterey Pop festival in 19676?",
+  "gold": "Jimi Hendrix",
+  "greedy": "Jimi Hendrix.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Della Street was whose secretary?",
+  "gold": "Perry Mason",
+  "greedy": "Perry Mason.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In music, who was Sweet and Innocent and Too Young?",
+  "gold": "Donny Osmond",
+  "greedy": "Connie Francis.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Who is featured on Puff Daddy's Can't Hold Me Down?",
+  "gold": "Mase",
+  "greedy": "Mase",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What had Edmond Hillary worked at before taking up mountain climbing?",
+  "gold": "Bee Keeping",
+  "greedy": "Royal New Zealand Air Force.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In which American state is the Isabella Stewart Gardner Museum?",
+  "gold": "Massachusetts",
+  "greedy": "Massachusetts.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Benina international airport is in which country?",
+  "gold": "Libya",
+  "greedy": "Libya.",
+  "n_correct": 4,
+  "label": "mid"
+ },
+ {
+  "q": "Beloved in 1999 was whose first movie since The Color Purple in 1985?",
+  "gold": "Oprah Winfrey",
+  "greedy": "Beloved was Oprah Winfrey's.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which Star Trek star directed Three Men and a Baby?",
+  "gold": "Leonard Nimoy",
+  "greedy": "Leonard Nimoy.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which sitcom star appeared on the big screening The Object of My Affection?",
+  "gold": "Jennifer Aniston",
+  "greedy": "Jennifer Aniston.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "\"Which character did Julia \"\"Roberts play in Steven Spielberg's Hook?\"",
+  "gold": "Tinkerbell",
+  "greedy": "Tinker Bell.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which US president did Anthony Hopkins play in a film whose title was simply his name?",
+  "gold": "Nixon",
+  "greedy": "Nixon.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "Which movie was a biopic about the life of David Helfgott?",
+  "gold": "Shine",
+  "greedy": "Shine.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which film director guested as the FBI Director in The Silence of the Lambs?",
+  "gold": "Roger Corman",
+  "greedy": "Jonathan Demme.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In which sci fi classic did the space ship Nostromo first appear?",
+  "gold": "Alien",
+  "greedy": "Alien.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Nigel Hawthorne was Oscar nominated for The Madness of which King?",
+  "gold": "George",
+  "greedy": "King George III",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which Swedish actress won the Best Supporting Actress Oscar for Murder on the Orient Express?",
+  "gold": "Ingrid Bergman",
+  "greedy": "Ingrid Bergman",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which Oscar-nominated film had You Sexy Thing as its theme song?",
+  "gold": "The Full Monty",
+  "greedy": "The Full Monty.",
+  "n_correct": 2,
+  "label": "mid"
+ },
+ {
+  "q": "Which Joan's career revived in Whatever Happened to Baby Jane?",
+  "gold": "Crawford",
+  "greedy": "Bette Davis",
+  "n_correct": 1,
+  "label": "mid"
+ },
+ {
+  "q": "Which much-loved actor won the Best Actor Oscar for The Philadelphia Story?",
+  "gold": "James Stewart",
+  "greedy": "James Stewart.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which legendary dancer was Oscar-nominated for The Towering Inferno?",
+  "gold": "Fred Astaire",
+  "greedy": "Fred Astaire",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What was the name of the brothel in The Best Little Whorehouse in Texas?",
+  "gold": "Chicken Ranch",
+  "greedy": "The Chicken Ranch.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "Who was the male star of the movie The Man of La Mancha?",
+  "gold": "Peter O'Toole",
+  "greedy": "Peter O'Toole",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What relation is Joey Richardson to Vanessa Redgrave?",
+  "gold": "Daughter",
+  "greedy": "Niece.",
+  "n_correct": 2,
+  "label": "mid"
+ },
+ {
+  "q": "Melanie Molitor is the mom of which tennis world NO 1?",
+  "gold": "Martina Hingis",
+  "greedy": "Steffi Graf.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Marc Dutroux hit the headlines over a 'house of horrors' in which country?",
+  "gold": "Belgium",
+  "greedy": "Belgium.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "On which date in 1945 did Hitler take cyanide then shoot himself?",
+  "gold": "April 30th",
+  "greedy": "April 30",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In which river is the Boulder Dam?",
+  "gold": "Colorado",
+  "greedy": "Colorado River.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which sports event was first held at Worcester, Massachusetts in 1927?",
+  "gold": "Ryder Cup",
+  "greedy": "Worcester Marathon.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In which European city is the Belvederen Gallery?",
+  "gold": "Vienna",
+  "greedy": "Vienna.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "How old was Woody Herman when he founded his own orchestra?",
+  "gold": "13",
+  "greedy": "17 years old.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "For which movie did Katharine Hepburn win her second Oscar?",
+  "gold": "Guess Who's Coming To Dinner",
+  "greedy": "Guess Who's Coming to Dinner.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who had a 60s No 1 hit with This Diamond Ring?",
+  "gold": "Gary Lewis and the Playboys",
+  "greedy": "Gary Lewis and the Playboys.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "The world was first aware of the Chernobyl disaster after detectors were triggered at a nuclear plant in which country?",
+  "gold": "Sweden",
+  "greedy": "Sweden.",
+  "n_correct": 4,
+  "label": "mid"
+ },
+ {
+  "q": "In which country was the first permanent bungee jumping site situated?",
+  "gold": "New Zealand",
+  "greedy": "New Zealand.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who succeeded Brezhnev as Soviet premier?",
+  "gold": "Andropov",
+  "greedy": "Yuri Andropov.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In the late 60s Owen Finlay MacLaren pioneered what useful item for parents of small chldren?",
+  "gold": "Baby Buggy",
+  "greedy": "Baby monitor.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In which city's shipyard was Solidarity set up?",
+  "gold": "Gdansk, Poland",
+  "greedy": "Gda\u0144sk.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which female singer was born on exactly the same day as impressionist Rich Little?",
+  "gold": "Tina Turner",
+  "greedy": "Diana Ross.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "What is Harrison Ford's real name?",
+  "gold": "Harrison Ford",
+  "greedy": "William Henry Ford Jr.",
+  "n_correct": 1,
+  "label": "mid"
+ },
+ {
+  "q": "Who's home runs record did Mark McGwire break in the 1998 season?",
+  "gold": "Roger Maris",
+  "greedy": "Roger Maris'",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who won baseball's first World Series of the 80s?",
+  "gold": "Philadelphia Phillies",
+  "greedy": "Philadelphia Phillies.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What was Pete Sampras seeded when he won his first US Open?",
+  "gold": "12",
+  "greedy": "1st",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "\"Which boxer famously said,\"\" If I can't beat this bum take my name off the record books?\"\"\"",
+  "gold": "Rocky Marciano",
+  "greedy": "Rocky Marciano.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "Where did Jonathan Edwards set his 1995 triple jump world record?",
+  "gold": "Sweden",
+  "greedy": "G\u00f6teborg.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In baseball, where do the Orioles come from?",
+  "gold": "Baltimore",
+  "greedy": "Baltimore, Maryland.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "The Naismith Award is presented in which sport?",
+  "gold": "Basket ball",
+  "greedy": "College Basketball.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which cartoon and film character is the nickname of super athlete Michael Johnson?",
+  "gold": "Superman",
+  "greedy": "The Flash.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "For which team did Babe Ruth blast his last Major League home run?",
+  "gold": "Boston Braves",
+  "greedy": "Boston Braves.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What was Warren Beatty's first movie?",
+  "gold": "Splendor in the Grass",
+  "greedy": "Splendor in the Grass.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "Which future Hollywood star got her break as Wonder Girl, Wonder Woman's sister Drusilla?",
+  "gold": "Debra Winger",
+  "greedy": "Debra Messing",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Mickey Braddock in the 50s series Circus Boy found fame with which surname in which pop band?",
+  "gold": "Mickey Dolenz (The Monkees)",
+  "greedy": "The Animals.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which war veteran was Director of News & Special Events for ABC before find fame as a TV cop?",
+  "gold": "Tom Selleck",
+  "greedy": "Jack Webb.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "What US sitcom was the first exported to Britain?",
+  "gold": "Amos 'N' Andy",
+  "greedy": "I Love Lucy.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In Hanna and Barbera's TV cartoons base on The Addams Family who was the voice of Gomez?",
+  "gold": "John Astin",
+  "greedy": "John Astin",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who was the only female victim to be killed off in the opening credit sequence in Police Squad?",
+  "gold": "Florence Henderson",
+  "greedy": "Sergeant Ed\n\nHowever, I believe you are referring to the 1982 series \"Police Squad!\"",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which US president won the Nobel Peace Prize in 1920?",
+  "gold": "Woodrow Wilson",
+  "greedy": "Woodrow Wilson.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who beat Tim Henman in his first Wimbledon singles semifinal?",
+  "gold": "Pete Sampras",
+  "greedy": "Pete Sampras.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What relation was Flo Jo to Jackie Joyner Kersee?",
+  "gold": "Sister-in-law",
+  "greedy": "Florence Griffith-Joyner.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "How long was swimmer Michelle Smith-de Bruin banned for attempting to manipulate a drugs test?",
+  "gold": "4 years",
+  "greedy": "2 years.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Yuan Yuan was caught carrying drugs for which Chinese team?",
+  "gold": "Swimming",
+  "greedy": "Chinese national football team.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which grand slam did Pete Sampras not win in the 20th century?",
+  "gold": "French",
+  "greedy": "French Open.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In which events did Gert Fredriksson win six Olympic gold medals?",
+  "gold": "Canoeing",
+  "greedy": "Canoeing.",
+  "n_correct": 4,
+  "label": "mid"
+ },
+ {
+  "q": "How many of his 45 races did Mike Hawthorn, a former Formula One motor racing world champion, win?",
+  "gold": "Three",
+  "greedy": "3",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "On the Internet what is Spam?",
+  "gold": "Junk mail",
+  "greedy": "Unwanted electronic messages.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In which country did the Internet start?",
+  "gold": "USA",
+  "greedy": "United States.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In which year was the Juilliard School founded in New York?",
+  "gold": "1905",
+  "greedy": "1905",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who wrote My Life and Loves in 1926, originally banned in the US?",
+  "gold": "Frank Harris",
+  "greedy": "F. Scott Fitzgerald",
+  "n_correct": 3,
+  "label": "mid"
+ },
+ {
+  "q": "What was Blondie's last UK No 1 of the 80s?",
+  "gold": "Rapture",
+  "greedy": "War Child.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In baseball, where do the Royals come from?",
+  "gold": "Kansas city",
+  "greedy": "Kansas City.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What is the largest city in Ohio?",
+  "gold": "Cleveland",
+  "greedy": "Columbus.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In which decade of the 20th century was Anne Bancroft born?",
+  "gold": "1930s",
+  "greedy": "1900s",
+  "n_correct": 1,
+  "label": "mid"
+ },
+ {
+  "q": "The Suez Canal connects the Mediterranean Sea to which other Sea?",
+  "gold": "Red sea",
+  "greedy": "Red Sea.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which rock star did Cindy Crawford name her first son after?",
+  "gold": "Presley",
+  "greedy": "John Mellencamp",
+  "n_correct": 2,
+  "label": "mid"
+ },
+ {
+  "q": "Sun Yat Sen overthrew the emperor in which country establishing a republic after 2000 years of imperial rule?",
+  "gold": "China",
+  "greedy": "China.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who designed the dress which made the most at Diana's dress auction?",
+  "gold": "Victor Edelstein",
+  "greedy": "Victor Edelstein",
+  "n_correct": 3,
+  "label": "mid"
+ },
+ {
+  "q": "Which Palestinian co-founded al Fatah in 1957?",
+  "gold": "Yasser Arafat",
+  "greedy": "Yasser Arafat.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In which country was Earl Spencer's acrimonious divorce settlement heard?",
+  "gold": "South Africa",
+  "greedy": "England.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In which North African country was Mohammed Al-Fayed, owner of Harrods department store in London, born?",
+  "gold": "Egypt",
+  "greedy": "Egypt.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Aung San Suu Kyi is a controversial leader in which country?",
+  "gold": "Myanmar",
+  "greedy": "Myanmar (Burma)",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which of the founders of United Artists had the last name nearest the beginning of the alphabet?",
+  "gold": "Chaplin",
+  "greedy": "Darryl F. Zanuck was not a founder, but Darryl F. Zanuck was a",
+  "n_correct": 1,
+  "label": "mid"
+ },
+ {
+  "q": "In La Cage Aux Folles, what was La Cage Aux Folles?",
+  "gold": "Nightclub",
+  "greedy": "A drag club.",
+  "n_correct": 2,
+  "label": "mid"
+ },
+ {
+  "q": "Where was the Fiddler in the musical's title?",
+  "gold": "On the Roof",
+  "greedy": "Tevye's wife's mother's village.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "South Pacific was set during which war?",
+  "gold": "WWII",
+  "greedy": "World War II.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What percentage of the earth's surface is covered by Europe?",
+  "gold": "8%",
+  "greedy": "7.6%",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which European town gave its name to a Treaty which symbolizes closer economic links between European countries?",
+  "gold": "Maastricht",
+  "greedy": "Maastricht.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which home of champagne in France was also where the German High Command surrendered in WWII?",
+  "gold": "Reims",
+  "greedy": "Compi\u00e8gne.",
+  "n_correct": 3,
+  "label": "mid"
+ },
+ {
+  "q": "Which was the first European city this century to open an underground railway system?",
+  "gold": "Paris",
+  "greedy": "Glasgow.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Who first drew Mickey Mouse when ?Disney first supplied the voice?",
+  "gold": "Ub Iwerks",
+  "greedy": "Walt Disney first drew Mickey Mouse in 1928.  Ub Iwerks supplied the first voice.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which actress wrote the novel The Last of the Really Great Whangdoodles?",
+  "gold": "Julie Andrews",
+  "greedy": "Julie Andrews.",
+  "n_correct": 2,
+  "label": "mid"
+ },
+ {
+  "q": "Who was the star of the film based on the record Harper Valley PTA by Jeannie C Riley?",
+  "gold": "Barbara Eden",
+  "greedy": "Shirley MacLaine",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "What color golf balls are used on the golf course in Antarctica?",
+  "gold": "Orange",
+  "greedy": "White.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Throughout the 80s and 90s Phil Collins recorded on which record label?",
+  "gold": "Atlantic",
+  "greedy": "Atlantic Records.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "On which label did Chuck Berry record in the 1950s and 1960s?",
+  "gold": "Chess",
+  "greedy": "Chess Records.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What was the name of Michael Jackson's second wife?",
+  "gold": "Debbie Rowe",
+  "greedy": "Lisa Marie Presley.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which US city was named after a British Prime Minister?",
+  "gold": "Pittsburgh",
+  "greedy": "Washington D.C.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "\"Who said, To err is human but it feels divine?\"\"\"",
+  "gold": "Mae West",
+  "greedy": "Alexander Pope.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which singer had a big 60s No 1 with Roses Are Red?",
+  "gold": "Bobby Vinton",
+  "greedy": "Bobby Vinton.",
+  "n_correct": 3,
+  "label": "mid"
+ },
+ {
+  "q": "What are the international registration letters of a vehicle from Iceland?",
+  "gold": "IS",
+  "greedy": "\u00cdSL",
+  "n_correct": 1,
+  "label": "mid"
+ },
+ {
+  "q": "Where was the American venue of the Live Aid concert?",
+  "gold": "Philadelphia",
+  "greedy": "John F. Kennedy Stadium.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which was the longest moon landing?",
+  "gold": "Apollo 17",
+  "greedy": "Apollo 17.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who had the most expensive presidential inauguration ceremony of the 20th century?",
+  "gold": "George W. Bush",
+  "greedy": "Ronald Reagan.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Who became Israel's head of state in 1993?",
+  "gold": "Ezer Weizman",
+  "greedy": "Ezer Weizman",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In WWII, who was the head of the Nazi party's security service?",
+  "gold": "Reinhard Heidrich",
+  "greedy": "Heinrich Himmler.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "Which President of the Philippines was deposed in 1986?",
+  "gold": "Marcos",
+  "greedy": "Ferdinand Marcos",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "What kind of disaster claimed some 100,000 lives in Armenia in 1988?",
+  "gold": "Earthquake",
+  "greedy": "Spitak earthquake.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which state on the Gulf of Mexico is nearest the end of the alphabet?",
+  "gold": "Texas",
+  "greedy": "Texas.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Truax Field international airport is in which US state?",
+  "gold": "Wisconsin",
+  "greedy": "Wisconsin.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "In what month was the attack on Pearl Harbor?",
+  "gold": "December",
+  "greedy": "December.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who did Dr. Crippen murder?",
+  "gold": "His wife",
+  "greedy": "His wife Cora.",
+  "n_correct": 5,
+  "label": "mid"
+ },
+ {
+  "q": "In the 1904 Olympics, how many of the 23 track and field titles were won by Americans?",
+  "gold": "21",
+  "greedy": "12.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "The Black Hills lie between which two rivers?",
+  "gold": "Belle Fourche and Cheyenne",
+  "greedy": "Cheyenne and Missouri.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In what year was the first in-flight movie shown on an internal flight in the USA.",
+  "gold": "1929",
+  "greedy": "1921.",
+  "n_correct": 0,
+  "label": "unknown"
+ },
+ {
+  "q": "In which city was John Lennon murdered?",
+  "gold": "New York",
+  "greedy": "New York City.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "How was President Kennedy assassinated?",
+  "gold": "Shot",
+  "greedy": "Shot by Lee Harvey Oswald.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Which caped crusader operated in Gotham City?",
+  "gold": "Batman",
+  "greedy": "Batman.",
+  "n_correct": 6,
+  "label": "known"
+ },
+ {
+  "q": "Who did Jack Ruby shoot in November 1963?",
+  "gold": "Lee Harvey Oswald",
+  "greedy": "Lee Harvey Oswald.",
+  "n_correct": 6,
+  "label": "known"
+ }
+]

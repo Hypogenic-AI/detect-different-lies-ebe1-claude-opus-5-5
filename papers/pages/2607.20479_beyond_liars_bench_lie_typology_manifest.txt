@@ -1,0 +1,8 @@
+PDF: papers/2607.20479_beyond_liars_bench_lie_typology.pdf
+Total pages: 9
+Pages per chunk: 4
+
+Chunks:
+  2607.20479_beyond_liars_bench_lie_typology_chunk_001.pdf: pages 1-4
+  2607.20479_beyond_liars_bench_lie_typology_chunk_002.pdf: pages 5-8
+  2607.20479_beyond_liars_bench_lie_typology_chunk_003.pdf: page 9

@@ -1,0 +1,37 @@
+####  abs:"ignorance" AND abs:"error" AND abs:hallucination AND abs:"knowledge"
+2606.14697v1 2026 | ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning
+2408.03297v2 2024 | KnowPO: Knowledge-aware Preference Optimization for Controllable Knowledge Selection in Retrieval-Augmented Language Models
+2305.14994v3 2023 | RefGPT: Dialogue Generation of GPT, by GPT, and for GPT
+2602.00861v1 2026 | Multi-Head Attention Is a Multi-Player Game
+2502.08356v3 2025 | Systematic Knowledge Injection into Large Language Models via Diverse Augmentation for Domain-Specific RAG
+2306.00946v2 2023 | Exposing Attention Glitches with Flip-Flop Language Modeling
+2404.10198v3 2024 | ClashEval: Quantifying the tug-of-war between an LLM's internal prior and external evidence
+####  abs:"lie" AND abs:"hallucination" AND abs:"probe" AND abs:"distinguish"
+2606.17229v1 2026 | Rift: A Conflict Signature for Deception in Language Models
+####  abs:"deception probe" AND abs:"hallucination"
+####  abs:"honesty" AND abs:"accuracy" AND abs:"probe" AND abs:"belief"
+####  abs:"MASK" AND abs:"honesty" AND abs:"lying"
+####  abs:"black-to-white" AND abs:deception
+2507.12691v3 2025 | Benchmarking Deception Probes via Black-to-White Performance Boosts
+####  abs:"truthful representations" AND abs:"deceptive instructions"
+####  abs:"know more than they show"
+####  abs:"semantic entropy" AND abs:"hallucination" AND abs:"detect"
+2508.14496v3 2025 | Semantic Energy: Detecting LLM Hallucination Beyond Entropy
+2605.20772v2 2026 | VIHD: Visual Intervention-based Hallucination Detection for Medical Visual Question Answering
+2606.07528v1 2026 | BEACON: Behavioral Entropy Aggregation for Cross-Model Hallucination Detection in Large Language Models
+2511.10837v1 2025 | The Map of Misbelief: Tracing Intrinsic and Extrinsic Hallucinations Through Attention Patterns
+2607.16643v1 2026 | Diversity-Oriented Fine-Tuning for Uncertainty-Based Hallucination Detection
+2503.20504v2 2025 | UniVRSE: Unified Vision-conditioned Response Semantic Entropy for Hallucination Detection in Medical Vision-Language Models
+2504.03579v2 2025 | Hallucination Detection on a Budget: Efficient Bayesian Estimation of Semantic Entropy
+2406.15927v1 2024 | Semantic Entropy Probes: Robust and Cheap Hallucination Detection in LLMs
+2505.07528v1 2025 | SEReDeEP: Hallucination Detection in Retrieval-Augmented Models via Semantic Entropy and Context-Parameter Fusion
+2512.03107v1 2025 | Detecting AI Hallucinations in Finance: An Information-Theoretic Method Cuts Hallucination Rate by 92%
+2601.08557v1 2026 | VideoHEDGE: Entropy-Based Hallucination Detection for Video-VLMs via Semantic Clustering and Spatiotemporal Perturbations
+2603.21693v2 2026 | Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain
+####  abs:"deception" AND abs:"uncertainty" AND abs:"probe"
+2403.09037v2 2024 | The First to Know: How Token Distributions Reveal Hidden Knowledge in Large Vision-Language Models?
+2606.04202v1 2026 | SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models
+2603.07619v2 2026 | Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models
+####  abs:"epistemic" AND abs:"lying" AND abs:"language model"
+2606.10467v1 2026 | Large Language Models as Modal Models in Linguistics
+####  abs:"TriviaQA" AND abs:"lie"

@@ -1,0 +1,8 @@
+PDF: papers/2603.10003_limits_of_lie_detector_approach.pdf
+Total pages: 10
+Pages per chunk: 4
+
+Chunks:
+  2603.10003_limits_of_lie_detector_approach_chunk_001.pdf: pages 1-4
+  2603.10003_limits_of_lie_detector_approach_chunk_002.pdf: pages 5-8
+  2603.10003_limits_of_lie_detector_approach_chunk_003.pdf: pages 9-10

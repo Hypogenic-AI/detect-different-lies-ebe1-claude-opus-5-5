@@ -1,0 +1,26 @@
+\begin{table}[t]
+    \centering
+    \caption{{\bf Same-prompt contrasts.} Left: condition-stratified AUROC (pair-weighted mean of within-condition AUROCs; per-condition values for \syco / \incent / \instructed in parentheses for the key column). Right: fire rate at a threshold set to 1\% FPR on \honestc answers. With the prompt fixed, no single detector separates a knowing lie from a false answer to an unknown question; the lie detectors fire on \pufalse answers almost as often as on lies. Best value in the lie vs.\ \pufalse column in {\bf bold}. For \pik, values below 0.5 mean it correctly rates lies as ``known''.}
+    \label{tab:sameprompt}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}lcl@{\hspace{1.2em}}cccc@{}}
+        \toprule
+        & \multicolumn{2}{c}{\textbf{Stratified AUROC (same prompt)}} & \multicolumn{4}{c}{\textbf{Fire rate at 1\% FPR (\%)}} \\
+        \cmidrule(lr){2-3} \cmidrule(lr){4-7}
+        \textbf{Detector} & \makecell{Lie vs.\\honest-under-pr.} & \makecell[c]{Lie vs.\ pressured-unk.-false\\(syc / inc / instr)} & Halluc. & Lie & \makecell{Honest-\\under-pr.} & \makecell{Pressured-\\unk.-false} \\
+        \midrule
+        \repe & 0.59 & 0.52 (0.50 / 0.53 / 0.51) & \phantom{0}2.6 & 67.1 & 16.2 & 44.9 \\
+        \truthp & 0.74 & 0.58 (0.44 / 0.59 / 0.58) & \phantom{0}7.0 & 23.5 & 10.0 & 19.5 \\
+        \instr & {\bf 0.88} & 0.60 (0.37 / 0.56 / 0.66) & 17.9 & 95.2 & 22.6 & 74.2 \\
+        \logprob & 0.54 & 0.52 (0.47 / 0.58 / 0.47) & 25.3 & 34.7 & \phantom{0}4.4 & 27.5 \\
+        \incons & 0.54 & 0.50 (0.35 / 0.52 / 0.50) & 28.5 & 38.0 & \phantom{0}3.0 & 30.8 \\
+        \correct & 0.79 & 0.50 (0.34 / 0.48 / 0.54) & 31.8 & 39.4 & 13.1 & 41.8 \\
+        \pik & 0.50 & 0.30 (0.26 / 0.27 / 0.33) & 13.9 & \phantom{0}0.2 & \phantom{0}0.8 & \phantom{0}4.5 \\
+        \midrule
+        \compT & 0.69 & {\bf 0.68} (0.65 / 0.70 / 0.67) & \phantom{0}1.7 & 71.8 & 15.8 & 35.9 \\
+        \compC & 0.77 & 0.62 (0.49 / 0.60 / 0.64) & \phantom{0}9.1 & 77.3 & 18.7 & 54.0 \\
+        \midrule
+        \repeprompt & 0.46 & 0.56 & \phantom{0}0.6 & 96.2 & 43.6 & 75.6 \\
+        \bottomrule
+    \end{tabular}}
+\end{table}

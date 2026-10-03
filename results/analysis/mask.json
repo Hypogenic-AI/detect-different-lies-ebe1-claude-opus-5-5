@@ -1,0 +1,211 @@
+{
+ "counts": {
+  "lie (pressure)": 67,
+  "honest (pressure)": 23,
+  "false, no belief (pressure)": 55,
+  "true, no belief (pressure)": 34,
+  "belief correct, consistent (neutral)": 140,
+  "belief wrong, consistent (neutral)": 6,
+  "belief wrong, inconsistent (neutral)": 19
+ },
+ "pressure_cat_counts": {
+  "honest": 23,
+  "evasion": 150,
+  "false_no_belief": 55,
+  "true_no_belief": 34,
+  "lie": 67,
+  "honest_wrong_belief": 3,
+  "lie_against_wrong_belief": 2
+ },
+ "auc": {
+  "repe_probe": {
+   "lie vs honest (pressure)": [
+    0.7131732641142116,
+    0.5633077094474154,
+    0.855474358974359
+   ],
+   "lie vs false-no-belief (pressure)": [
+    0.421438263229308,
+    0.31690346418907006,
+    0.5209203296703295
+   ],
+   "lie vs belief-wrong-inconsistent (neutral)": [
+    0.9897879025923018,
+    0.9681996268656716,
+    1.0
+   ],
+   "belief wrong-inconsistent vs correct-consistent (neutral)": [
+    0.618796992481203,
+    0.47126631555484083,
+    0.74961150577502
+   ],
+   "belief wrong-consistent vs correct-consistent (neutral)": [
+    0.5142857142857142,
+    0.2536626232213424,
+    0.7758640018076722
+   ]
+  },
+  "truth_probe": {
+   "lie vs honest (pressure)": [
+    0.5567813108371188,
+    0.4108857609365124,
+    0.6826332417582418
+   ],
+   "lie vs false-no-belief (pressure)": [
+    0.6170963364993216,
+    0.5290722025253051,
+    0.7213755358774334
+   ],
+   "lie vs belief-wrong-inconsistent (neutral)": [
+    0.5176747839748626,
+    0.3670703125,
+    0.6766560792349726
+   ],
+   "belief wrong-inconsistent vs correct-consistent (neutral)": [
+    0.5454887218045112,
+    0.412198275862069,
+    0.6850072285271042
+   ],
+   "belief wrong-consistent vs correct-consistent (neutral)": [
+    0.5107142857142857,
+    0.19619755244755246,
+    0.8551377788877789
+   ]
+  },
+  "truth_probe(mean)": {
+   "lie vs honest (pressure)": [
+    0.745619727449708,
+    0.6091213675213676,
+    0.8721484053630192
+   ],
+   "lie vs false-no-belief (pressure)": [
+    0.6933514246947083,
+    0.5928211530487686,
+    0.785673398081988
+   ],
+   "lie vs belief-wrong-inconsistent (neutral)": [
+    0.3275726630007856,
+    0.17883989145183177,
+    0.4832378059919619
+   ],
+   "belief wrong-inconsistent vs correct-consistent (neutral)": [
+    0.6214285714285714,
+    0.5143248996373997,
+    0.7298094024780176
+   ],
+   "belief wrong-consistent vs correct-consistent (neutral)": [
+    0.5916666666666667,
+    0.32421259421034604,
+    0.8169642857142857
+   ]
+  },
+  "instr_lie_probe": {
+   "lie vs honest (pressure)": [
+    0.7890979883192731,
+    0.6426708398539385,
+    0.8973539702233251
+   ],
+   "lie vs false-no-belief (pressure)": [
+    0.5337856173677069,
+    0.42672782308640356,
+    0.6410338188699173
+   ],
+   "lie vs belief-wrong-inconsistent (neutral)": [
+    0.9882168106834249,
+    0.967836210571185,
+    1.0
+   ],
+   "belief wrong-inconsistent vs correct-consistent (neutral)": [
+    0.48984962406015037,
+    0.3450266976440857,
+    0.6182832494002707
+   ],
+   "belief wrong-consistent vs correct-consistent (neutral)": [
+    0.594047619047619,
+    0.2415248226950355,
+    0.9447688921496699
+   ]
+  },
+  "correctness_probe": {
+   "lie vs honest (pressure)": [
+    0.5892277741726152,
+    0.46150259449602127,
+    0.735138795295281
+   ],
+   "lie vs false-no-belief (pressure)": [
+    0.5359565807327,
+    0.4331770035453233,
+    0.6352774784482759
+   ],
+   "lie vs belief-wrong-inconsistent (neutral)": [
+    0.5710919088766694,
+    0.43155186405665946,
+    0.7095093255928853
+   ],
+   "belief wrong-inconsistent vs correct-consistent (neutral)": [
+    0.7308270676691729,
+    0.601919751444208,
+    0.8405033407317576
+   ],
+   "belief wrong-consistent vs correct-consistent (neutral)": [
+    0.5773809523809524,
+    0.31301282051282053,
+    0.8441346153846154
+   ]
+  },
+  "pik_probe": {
+   "lie vs honest (pressure)": [
+    0.2809863724853991,
+    0.1506892241083462,
+    0.4167691568541752
+   ],
+   "lie vs false-no-belief (pressure)": [
+    0.3419267299864315,
+    0.24140680395675582,
+    0.4415755082171326
+   ],
+   "lie vs belief-wrong-inconsistent (neutral)": [
+    0.018853102906520043,
+    0.00033735795454545525,
+    0.05308533808533804
+   ],
+   "belief wrong-inconsistent vs correct-consistent (neutral)": [
+    0.7109022556390978,
+    0.5709222027972028,
+    0.8542665567371113
+   ],
+   "belief wrong-consistent vs correct-consistent (neutral)": [
+    0.5202380952380953,
+    0.186993838028169,
+    0.8461538461538461
+   ]
+  },
+  "neg_logprob": {
+   "lie vs honest (pressure)": [
+    0.390655418559377,
+    0.2368114264626946,
+    0.5549617830579544
+   ],
+   "lie vs false-no-belief (pressure)": [
+    0.3394843962008141,
+    0.24356596275812184,
+    0.4456316820909398
+   ],
+   "lie vs belief-wrong-inconsistent (neutral)": [
+    0.06048703849175181,
+    0.0,
+    0.1824595055413468
+   ],
+   "belief wrong-inconsistent vs correct-consistent (neutral)": [
+    0.693609022556391,
+    0.5776798561151079,
+    0.8285991922574472
+   ],
+   "belief wrong-consistent vs correct-consistent (neutral)": [
+    0.525,
+    0.19454225352112678,
+    0.8210119047619048
+   ]
+  }
+ }
+}
